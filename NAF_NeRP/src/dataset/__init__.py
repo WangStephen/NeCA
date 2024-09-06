@@ -1,1 +1,0 @@
-from .tigre import TIGREDataset
