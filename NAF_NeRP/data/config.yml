@@ -1,0 +1,40 @@
+# Parameters to setup CT simulation.
+
+# dataset
+datadir: ./data/CCTA_test/data.npy
+numTrain: 2
+
+# System configuration
+DSD:        # Distance Source Detector      (mm)
+- 993.0
+- 1055.0
+
+DSO:        # Distance Source Origin        (mm)
+- 757.06045586378
+- 756.9934313361
+
+DDE:        # Distance Origin Detector
+- 235.93954413621998
+- 298.0065686639
+
+# Detector parameters
+nDetector: # Number of pixels              (px)
+- 512
+- 512
+dDetector: # Size of each pixel            (mm)
+- 0.278 #0.55599999427796 #0.27799999713898 #
+- 0.278 #0.55599999427796 #0.27799999713898 #
+
+# Image parameters
+nVoxel: # Number of voxels              (vx)
+- 128
+- 128
+- 128
+dVoxel: # size of each voxel            (mm)
+- 0.8 #0.78125
+- 0.8 #0.78125
+- 0.8 #0.78125
+
+# Angles
+first_projection_angle: [29.7,0.1] 
+second_projection_angle: [2,29] 
