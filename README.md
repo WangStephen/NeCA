@@ -2,14 +2,21 @@
 
 # 1. Overview
 
-This is the code repository for the [NeCA]() paper by Yiying Wang, Abhirup Banerjee and Vicente Grau.
+This is the code repository for the [NeCA](https://arxiv.org/abs/2409.04596) paper by Yiying Wang, Abhirup Banerjee and Vicente Grau.
 
 ## Citation
 
 If you find the code are useful, please consider citing the paper.
 
 ```
-@article{
+@misc{wang2024neca3dcoronaryartery,
+      title={NeCA: 3D Coronary Artery Tree Reconstruction from Two 2D Projections by Neural Implicit Representation}, 
+      author={Yiying Wang and Abhirup Banerjee and Vicente Grau},
+      year={2024},
+      eprint={2409.04596},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2409.04596}, 
 }
 ```
 
